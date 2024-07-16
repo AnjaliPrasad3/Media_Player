@@ -1,0 +1,59 @@
+.media-player {
+    text-align: center;
+    background-color: #2E236C;
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  button,
+  .file-input {
+    background-color: #17153B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  .file-input:hover {
+    background-color: #433D8B;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  audio {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  video{
+    width: auto;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  img{
+    width: 20%;
+    margin-top: 80px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 20px;
+  }
+  
